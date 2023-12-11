@@ -1,0 +1,51 @@
+img{
+  object-fit: cover;
+  position: relative;
+  border-radius: 10px;
+  
+}
+/*
+button{
+  font-size: 1.2em;
+  display: inline-flex;
+  font-weight: 800;
+  text-align: center;
+  background: rgb(174, 221, 125);
+  border: 1.5px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  transition: 0.25s;
+}
+*/
+button:active{
+  border-style:groove;
+}
+.signin-link{
+  top: 30px;
+  left: 30px;
+}
+
+button{
+  background: white;
+  border: 10px solid rgb(185, 185, 185);
+  border-radius: 5rem;
+  width: 350px;
+  height: 110px;
+  text-align: center;
+  font-size: 3.0em;
+  font-weight: 800;
+  cursor: pointer;
+  transition: all .4s;
+}
+button:hover {
+  background-color: rgb(66, 66, 66);
+  transform: scale(1.2);
+}
+
+.goBtn{
+  display: flex;
+  justify-content: center;
+  margin-top: 20%;
+}
+body{
+  background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./profile.jpg);
+}
