@@ -4,18 +4,8 @@ img{
   border-radius: 10px;
   
 }
-/*
-button{
-  font-size: 1.2em;
-  display: inline-flex;
-  font-weight: 800;
-  text-align: center;
-  background: rgb(174, 221, 125);
-  border: 1.5px solid rgb(0, 0, 0);
-  border-radius: 5px;
-  transition: 0.25s;
-}
-*/
+
+
 button:active{
   border-style:groove;
 }
