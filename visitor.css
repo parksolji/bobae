@@ -1,0 +1,79 @@
+#homeBtn{
+  width: 35px;
+  height:35px
+;}
+
+#title {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  font-size: 3.5em;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+  
+body{
+background-color: rgba(206, 248, 255, 0.699);
+}
+
+#inputCmt {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+input {
+  width: 350px;
+  height: 35px;
+  font-size: 15px;
+  border-radius: 1rem;
+  border:none;
+}
+
+.enter{
+  margin-left: 1%;
+}
+
+.btn {
+  width: 40px;
+  height: 40px;
+  border: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: rgb(182, 220, 255);
+}
+.btn:hover{
+  transform: scale(1.1);
+}
+
+#goBtn{
+  width: 30px;
+  height: 40px;
+  background:none;
+}
+
+#cmtList {
+  margin-top: 2%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+  place-items: center;
+}
+
+.delBtn {
+  background-color: rgb(221, 1, 1);
+  color: white;
+  border: none;
+  padding: 4px 7px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.delBtn:hover {
+  background-color: darkred;
+}
+
+#cmtList li{
+  margin: 20px 0;
+  width: 700px;
+}
